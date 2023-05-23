@@ -8,7 +8,7 @@
 
 > **注意**
 >
-> - 当前暂不支持需要虚拟键盘和网页浏览器的组件，请避免使用，否则可能会导致意外行为出现。
+> 当前暂不支持需要虚拟键盘和网页浏览器的组件，请避免使用，否则可能会导致意外行为出现。
 
 ## Unity 项目设置
 
@@ -16,7 +16,7 @@
 
 设置完成后，请保持 Unity 项目处于打开状态，并记下文件路径。
 
-# MRTK 的项目配置
+## MRTK 的项目配置
 
 - MRTK3 的安装需求：
     - [Visual Studio](https://visualstudio.microsoft.com/) 2019 社区版或更高版本
@@ -165,7 +165,7 @@
 
 >**注意**
 >
->- 您需要在目标设备上安装 Snapdragon Spaces Services 0.11.1 或更高版本以支持手部跟踪。在具有早期版本 Snapdragon Spaces Services 的设备上，为 MRTK 手部跟踪构建的应用程序可能无法按预期工作。
+> 您需要在目标设备上安装 Snapdragon Spaces Services 0.11.1 或更高版本以支持手部跟踪。在具有早期版本 Snapdragon Spaces Services 的设备上，为 MRTK 手部跟踪构建的应用程序可能无法按预期工作。
 
 ### 手部跟踪插件设置
 

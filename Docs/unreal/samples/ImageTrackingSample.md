@@ -18,7 +18,7 @@
 
 ### 图像 AR 会话配置
 
-系统使用 `D_SpacesSessionConfig_ImageTracking` ）资产（位于`Content > SnapdragonSpaces > Samples > ImageTracking > Core`）来检测图像。该资产是从 `SpacesSessionConfig` 类派生的数据资产。
+系统使用 `D_SpacesSessionConfig_ImageTracking` 资产（位于`Content > SnapdragonSpaces > Samples > ImageTracking > Core`）来检测图像。该资产是从 `SpacesSessionConfig` 类派生的数据资产。
 
 会话配置文件提供了三个字段：一个字段用于定义图像大小，一个字段用于指定应跟踪的最大同时图像数量，一个字段用于引用候选要跟踪的图像的。
 
@@ -38,7 +38,7 @@
 >
 > 您可以在 [测试部分的图像目标（Image Targets for Testing section）](./../../designux/ImageTargetsToTry.md) 中找到使用的参考图像。
 
-下一步是创建 `AR 候选图像` （`AR Candidate Image`）资源，**Candidate Texture（候选纹理）** 字段引用了创建的纹理资源。每个 `AR 候选图像` 都应该有一个唯一的标识符，可以在 **Friendly Name** 字段中设置。否则，在同一个 `AR Session Config（AR 会话配置）` 中使用的不同候选者中具有相同名称的任何内容，都将导致哈希码冲突（hash code collision）。
+下一步是创建 `AR 候选图像` 资源，**Candidate Texture（候选纹理）** 字段引用了创建的纹理资源。每个 `AR 候选图像` 都应该有一个唯一的标识符，可以在 **Friendly Name** 字段中设置。否则，在同一个 `AR Session Config（AR 会话配置）` 中使用的不同候选者中具有相同名称的任何内容，都将导致哈希码冲突（hash code collision）。
 
 最后一步是通过 **宽度/高度** 字段用厘米来定义图像的物理大小。正确的测量数据对于正确的姿态估计和随后的增强放置非常重要。在考虑到图像的比例以及在 **方向** 字段中定义的方向后，此数据会自动填充。不幸的是，虚幻引擎目前的方向是反向的，因此开发者必须 **水平（Landscape）** 处理纵向图像，**垂直（Portrait）** 处理横向图像。
 

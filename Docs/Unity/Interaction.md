@@ -6,7 +6,7 @@
 
 **InteractionManager** 组件位于此预制件的根 GameObject 中。它包含了不同交互输入系统的方法，以及处理输入交互切换的代码。默认配置将默认使用 **手部跟踪（Hand Tracking）**，并在 Unity 项目中不包含 QCHT 软件包或手部跟踪与目标设备不兼容时回退到注视射线（Gaze Pointer）。否则，将从 [手部跟踪](./QCHTGuide/HandTrackingOverview.md) > [注视射线](#注视射线) > [设备输入（Device Input）](#控制器管理器).进行切换。
 
-> 手部跟踪
+> **手部跟踪**
 >
 > 请参考 [QCHT 手部跟踪](./QCHTGuide/BasicSceneSetup.md) 文档。
 
@@ -26,9 +26,9 @@
 
 **GazeInteractorUI** 组件被添加到根对象中，负责进行射线检测，并与场景中 UI 对象进行交互，同时管理指示器的计时器时长和 “点击” 功能。
 
->**注视射线的局限性**
+> **注视射线的局限性**
 >
->目前，注视射线只能与场景中的 UI 对象进行交互，而不像射线控制器（Pointer Controller）一样与 UI 和 3D 对象进行交互。
+> 目前，注视射线只能与场景中的 UI 对象进行交互，而不像射线控制器（Pointer Controller）一样与 UI 和 3D 对象进行交互。
 
 ## 控制器管理器
 

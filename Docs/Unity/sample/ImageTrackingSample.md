@@ -6,7 +6,7 @@
 
 ## 示例的工作原理
 
-首先，请确保在 OpenXR 项目设置中启用 `图像跟踪` （`Image Tracking`）功能。】
+首先，请确保在 OpenXR 项目设置中启用 `图像跟踪`（`Image Tracking`）功能。
 
 >**提示**
 >

@@ -25,7 +25,8 @@
 
 ### 示例代码
 
-    `private ARMeshManager _meshManager;
+```
+    private ARMeshManager _meshManager;
 
         public void Awake() {
             _meshManager = FindObjectOfType<ARMeshManager>();
@@ -53,4 +54,5 @@
             foreach (MeshFilter meshFilter in args.removed) {
                 ...
             }
-        }`
+        }
+```

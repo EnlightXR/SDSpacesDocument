@@ -21,9 +21,8 @@ Snapdragon Spaces 提供了一系列环境理解功能，以帮助开发人员�
 
 如何识别图像目标，请参考示例文档：
 
-[Unity 图像跟踪示例](./../Unity/sample/ImageTrackingSample.md)
-
-[虚幻引擎图像跟踪示例](./../unreal/samples/ImageTrackingSample.md)
+- [Unity 图像跟踪示例](./../Unity/sample/ImageTrackingSample.md)
+- [虚幻引擎图像跟踪示例](./../unreal/samples/ImageTrackingSample.md)
 
 ## 空间网格划分
 

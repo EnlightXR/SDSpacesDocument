@@ -81,7 +81,8 @@ private unsafe void UpdateCameraTexture(XRCpuImage image) {
 
 下面的示例代码检索所选传感器的内部参数，并显示在应用程序 UI 中。
 
-```public Text[] ResolutionTexts;
+```
+public Text[] ResolutionTexts;
 public Text[] FocalLengthTexts;
 public Text[] PrincipalPointTexts;
 
@@ -100,5 +101,5 @@ private void UpdateCameraIntrinsics() {
     FocalLengthTexts[1].text = _intrinsics.focalLength.y.ToString("#0.00");
     PrincipalPointTexts[0].text = _intrinsics.principalPoint.x.ToString("#0.00");
     PrincipalPointTexts[1].text = _intrinsics.principalPoint.y.ToString("#0.00");
-}`
+}
 ```

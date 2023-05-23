@@ -45,14 +45,14 @@ Snapdragon Spaces Unity 软件包依赖于 XR Interaction Toolkit 软件包。�
 
 | 功能 | AR Foundation/Spaces 管理器 | XR 子系统 |
 | --- | --- | --- |
-| 基础运行时 | https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.2/manual/index.html | https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/session-subsystem.html |
-| 相机帧访问 | AR 相机管理器 | https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/api/UnityEngine.XR.ARSubsystems.XRCameraSubsystem.html |
+| 基础运行时 | [AR Foundation 文档](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.2/manual/index.html) | [XR session subsystem 文档](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/session-subsystem.html) |
+| 相机帧访问 | AR 相机管理器 | [Class XRCameraSubsystem 文档](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/api/UnityEngine.XR.ARSubsystems.XRCameraSubsystem.html) |
 | 手部跟踪 | Spaces 手部跟踪管理器 | Spaces.XR 手部跟踪子系统 |
-| 命中测试（实验） | AR 射线投射管理器 | https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/raycasting-subsystem.html |
-| 图像跟踪 | AR 图像跟踪管理器 | https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/image-tracking.html |
-| 平面检测 | AR 平面管理器 | https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/plane-subsystem.html |
-| 空间锚点 | AR 锚点管理器 | https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/anchor-subsystem.html |
-| 空间网格化（实验性） | AR 网格管理器 | https://docs.unity3d.com/2021.3/Documentation/ScriptReference/XR.XRMeshSubsystem.html |
+| 命中测试（实验） | AR 射线投射管理器 | [XR raycast subsystem 文档](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/raycasting-subsystem.html) |
+| 图像跟踪 | AR 图像跟踪管理器 | [XR image tracking subsystem 文档](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/image-tracking.html) |
+| 平面检测 | AR 平面管理器 | [XR plane subsystem 文档](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/plane-subsystem.html) |
+| 空间锚点 | AR 锚点管理器 | [XR anchor subsystem 文档](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/anchor-subsystem.html) |
+| 空间网格化（实验性） | AR 网格管理器 | [XR Mesh Subsystem 文档](https://docs.unity3d.com/2021.3/Documentation/ScriptReference/XR.XRMeshSubsystem.html) |
 
 ![3](./pic-SetupGuideUnity/3.png)
 

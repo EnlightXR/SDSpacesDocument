@@ -471,7 +471,7 @@
 #### 新增
 
 - 手部跟踪支持和 [新的示例场景](./../unreal/sample/HandTrackingSample.md)。
-- **⚠ 实验性**支持从本地存储加载和保存锚点，并在 [锚点示例场景](./../unreal/samples/AnchorSample.md#加载和保存锚点#-加载和保存锚点
+- **⚠ 实验性**支持从本地存储加载和保存锚点，并在 [锚点示例场景](./../unreal/samples/AnchorSample.md#加载和保存锚点#-加载和保存锚点)
   
 #### 更改
 
