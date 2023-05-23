@@ -46,7 +46,7 @@
 >
 > 在 Snapdragon Spaces 版本 0.13.0 之前的版本中，`BP_HandMeshingViewer` 不存在，该功能在 `BP_HandTrackingManager` 中实现。在 Snapdragon Spaces 版本 0.12.1 之前的版本中，为了呈现手部网格，使用了`HGestures Blueprint Library` 中的 **Render Hand Mesh** 方法，该方法在 Snapdragon Spaces 版本 0.13.0 中已弃用。
 >
->![6](./pic-HandTrackingSample/6.png)
+![6](./pic-HandTrackingSample/6.png)
 >
 >> **警告**
 >>
@@ -136,7 +136,7 @@ Spaces 手势输入管理器 Actor 负责实时监听手势，并使用委托根
 >
 > 在 Snapdragon Spaces 的虚幻引擎示例项目中，`Hand Gesture Input Manager` 生成了两个 `Spaces Hand Interaction` 类型的 actor，分别代表左右手，这意味着将 `Hand Gesture Input Manager` 添加到场景中就足够了。
 
->![12](./pic-HandTrackingSample/12.png)
+![12](./pic-HandTrackingSample/12.png)
 
 Spaces 手部交互 actor 可以使用以下变量和函数进行自定义
 
@@ -174,13 +174,13 @@ Spaces 手部交互 actor 可以使用以下变量和函数进行自定义
 
 此组件的使用示例在 `Content > SnapdragonSpaces > Samples > HandTracking > Placeable > InteractableObjects` 下的`BP_PandaInteractable` 蓝图 actor 中。
 
->![13](./pic-HandTrackingSample/13.png)
+![13](./pic-HandTrackingSample/13.png)
 
 ## Spaces Snapping Volume 组件
 
 Spaces Snapping Volume 组件继承自 [Unreal Engine Box 组件](https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/Components/UBoxComponent/)。它主要用于将 `SpacesHandInteraction`  actor 的射线端点捕捉到另一个 actor 中的所需位置。这对于可交互的 3D（例如按钮、复选框或滑块）特别有用，但也可用于任何类型的 3D actor。该组件可以添加到一个 actor 中，并且必须手动放置在所需的位置，例如在 3D widget 中的按钮上方，如下图所示。
 
->![14](./pic-HandTrackingSample/14.png)
+![14](./pic-HandTrackingSample/14.png)
 
 > **警告**
 >

@@ -41,3 +41,4 @@ Snapdragon Spaces 插件提供额外功能，来帮助管理从蓝图捕获的�
 > **提示**
 >
 > 示例的行为已在 `WBP_CameraFrameAccess` 蓝图资产中实现（位于 `Content > SnapdragonSpaces > Samples > CameraFrameAccess > UI`）。
+

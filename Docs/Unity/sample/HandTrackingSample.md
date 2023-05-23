@@ -119,7 +119,7 @@ namespace Qualcomm.Snapdragon.Spaces.SpacesHand
 
 ### Spaces 手部关节可视化组件
 
-> 警告
+> **警告**
 >
 > Spaces Hand Joint Visualizer（手部关节可视化组件） 组件已被弃用，取而代之的是 [QCHT 包](./../QCHTGuide/ImportAdditionalPackages.md) 中的组件，并将在未来的版本中删除。
 
